@@ -16,7 +16,14 @@
   color: #fff;
   background: #000;
 }
-
+@media (max-width:768px) {
+    .fab{
+        margin-right:1rem;
+    }
+    .container{
+        padding:0!important
+    }
+}
 @media (min-width: 1199px) {
   .port-item {
     padding: 3em !important;
